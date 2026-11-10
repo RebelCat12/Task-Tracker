@@ -1,0 +1,35 @@
+Features:
+  [] Start by creating a basic CLI structure to handle user inputs.
+    [x] Add a welcome statement
+    [x] Get user input
+    [] Validate user input
+    [] Call the function to handle that action
+  [] Add ability to create a new task.
+    - The function should take one argument: the description of the task.
+  [] Add ability to update tasks.
+    - The function should take two arguments: the task ID, and the amended description.
+  [] Add ability to delete tasks.
+    - The function should take one argument: the task ID.
+    [] Add confirmation message before deleting the task.
+  [] Add ability to mark a task as done.
+    - The function should take one argument: the task ID.
+  [] Add ability to mark a task as in progress.
+    - The function should take one argument: the task ID.
+  [] Add ability to list all tasks.
+    - The list funtion should take one OPTIONAL argument: the status to filter by.
+  [] Add ability to list finished tasks.
+  [] Add ability to list in progress tasks.
+  [] Add ability to list unfinished tasks.
+  [] Add metadata to the list items.
+    [] id: A unique identifier for the task
+    [] description: A short description of the task
+    [] status: The status of the task (todo, in-progress, done)
+    [] createdAt: The date and time when the task was created
+    [] updatedAt: The date and time when the task was last updated
+  [] Store created tasks.
+  [] Feature
+  [] Feature
+
+Notes:
+- Use a JSON file to store the tasks in the current directory.
+
